@@ -1,0 +1,6 @@
+{
+  "name": "Chickens Invaders",
+  "description": "Classic arcade space shooter where waves of invading chickens drop slow eggs, roast drumsticks, and giant asteroid hazards.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,88 @@
+/**
+ * Achievements Catalog
+ */
+
+import { AchievementDef } from '../types';
+
+export const ACHIEVEMENTS: AchievementDef[] = [
+  {
+    id: 'first_blood',
+    title: 'First Pluck',
+    description: 'Blasted your first enemy alien critter in combat.',
+    rewardCoins: 50,
+    icon: 'target',
+    isUnlocked: false,
+    progress: 0,
+    maxProgress: 1,
+  },
+  {
+    id: 'egg_scrambler',
+    title: 'Omelette Maker',
+    description: 'Destroy 25 heavy Armored Eggs.',
+    rewardCoins: 150,
+    icon: 'egg',
+    isUnlocked: false,
+    progress: 0,
+    maxProgress: 25,
+  },
+  {
+    id: 'general_fall',
+    title: 'Feather Duster',
+    description: 'Defeat General Cluck in Mission 10.',
+    rewardCoins: 500,
+    icon: 'crown',
+    isUnlocked: false,
+    progress: 0,
+    maxProgress: 1,
+  },
+  {
+    id: 'star_collector',
+    title: 'Star Cadet',
+    description: 'Earn 15 stars across campaign missions.',
+    rewardCoins: 300,
+    icon: 'star',
+    isUnlocked: false,
+    progress: 0,
+    maxProgress: 15,
+  },
+  {
+    id: 'galactic_tycoon',
+    title: 'Cosmic Tycoon',
+    description: 'Collect 1,500 total coins throughout your career.',
+    rewardCoins: 400,
+    icon: 'coins',
+    isUnlocked: false,
+    progress: 0,
+    maxProgress: 1500,
+  },
+  {
+    id: 'combo_master',
+    title: 'Combo Maestro',
+    description: 'Achieve a 25x kill combo in a single mission.',
+    rewardCoins: 250,
+    icon: 'zap',
+    isUnlocked: false,
+    progress: 0,
+    maxProgress: 25,
+  },
+  {
+    id: 'fleet_commander',
+    title: 'Fleet Admiral',
+    description: 'Unlock 3 distinct starships in the Hangar.',
+    rewardCoins: 450,
+    icon: 'rocket',
+    isUnlocked: false,
+    progress: 0,
+    maxProgress: 3,
+  },
+  {
+    id: 'survivor_ace',
+    title: 'Endless Gladiator',
+    description: 'Survive to Wave 10 in Endless Survival mode.',
+    rewardCoins: 350,
+    icon: 'shield',
+    isUnlocked: false,
+    progress: 0,
+    maxProgress: 10,
+  },
+];
